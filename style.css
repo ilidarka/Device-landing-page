@@ -1,0 +1,139 @@
+:root {
+    --yellow-light: #FFE17F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-container {
+    position: relative;
+    margin-top: 40px;
+    margin-right: 140px;
+    margin-left: 140px;
+    max-width: 1160px;
+    height: 300px;
+    background-color: var(--yellow-light);
+    padding: 0 60px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -22px;
+}
+
+.first-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input-login {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 43px;
+}
+
+.search-input-login input {
+    border: 1px solid #000 ;
+    height: 39px;
+    max-width: 307px;
+    width: 100%;
+    background-color: var(--yellow-light);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: url("/img/search-icon.png") no-repeat left;
+    background-position-x: 15px;
+    padding-left: 46px;
+    font-size: 16px;
+}
+
+.search-input-login button {
+    background-color: var(--yellow-light);
+    border: 1px solid #000;
+    height: 40px;
+    max-width: 160px;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -2px;
+    font-size: 16px;
+}
+
+.login {
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+.login span {
+    margin-left: 5px;
+}
+
+.compare-cart {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.compare-cart span {
+    font-size: 18px;
+}
+
+
+.compare {
+    display: flex;
+    align-items: center;
+}
+
+.compare img {
+    margin: 12px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    margin: 12px;
+}
+
+.second-line {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-circle {
+    display: flex;
+    margin-top: 41px;
+}
+
+.catalog-circle img {
+    margin-left: 15px;
+    margin-top: -13px;
+}
+
+.delivery-garanty-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.delivery-garanty-contacts h2 {
+    margin-left: 45px;
+}
