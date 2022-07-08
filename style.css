@@ -17,6 +17,7 @@ body {
     margin-right: 140px;
     margin-left: 140px;
     max-width: 1160px;
+    width: 100%;
     height: 300px;
     background-color: var(--yellow-light);
     padding: 0 60px;
@@ -36,7 +37,7 @@ body {
 .search-input-login {
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     margin-top: 43px;
 }
 
@@ -139,20 +140,22 @@ body {
 }
 
 .slider-info {
+    margin-left: 140px;
+    margin-right: 140px;
     position: absolute;
     display: flex;
     max-width: 1160px;
     width: 100%;
     top: 190px;
-    left: 140px;
-
 }
 
 .slider {
     position: relative;
+    display: flex;
 }
 
 .arrows {
+    display: flex;
     position: absolute;
     top: 210px;
     left: 30px;
@@ -173,6 +176,7 @@ body {
 }
 
 .info h1 {
+    display: flex;
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     line-height: 50px;
